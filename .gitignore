@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Test
+test-reports
+coverage
+
+
+
+# Dependency directories
+node_modules
+jspm_packages
+
+
+# Cache directory
+.npm
+.DS_Store
+.pursuit-cache
+.fontcustom-manifest.json
+
+# Optional REPL history
+.node_repl_history
+
+# Temporary directories or files
+tmp/
+*.pyc
+
+# Build directories
+public/
+dist/
+app.*.json
+!app.base.json
+**/demo/*.html
+
+# Editor or IDE setting directories
+.vscode/
+.idea/
+.webstorm/
