@@ -1,7 +1,5 @@
 # vusion-iconmaker
 
-本插件为[vusion](https://github.com/vusion/vusion)做支持，有兴趣可以关注一下
-
 ## 安装
 
 ```javascript
@@ -11,7 +9,9 @@ npm install iconfont-create-plugin
 ```
 ## 前置条件
 
-本插件是webpack的loader，用于配合iconfont-create-plugin按需加载svg生成字体图标库，所以使用前确保已经引入[vusion-iconmaker](https://www.npmjs.com/package/iconfont-create-plugin)
+本插件是webpack的loader，用于配合iconfont-create-plugin按需加载svg生成字体图标库，所以使用前确保已经引入[vusion-iconmaker](https://www.npmjs.com/package/iconfont-create-plugin)。
+
+本插件为[vusion](https://github.com/vusion/vusion)做支持，有兴趣可以关注一下
 
 ## 使用方式
 
@@ -60,3 +60,5 @@ $app.innerHTML = `
 `
 ```
 示例直接使用了require的方式引入，使用import亦可，最终loader会直接返回生成的class名
+
+
